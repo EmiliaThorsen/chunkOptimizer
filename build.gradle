@@ -24,7 +24,7 @@ dependencies {
 		mappings "net.ornithemc:feather:${project.minecraft_version}+build.${project.feather_build}:v2"
 		addLayer ploceus.nestedMappings() // remove this line if not using nests
 	}
-	nests "net.ornithemc:nests:${project.minecraft_version}+build.${project.nests_build}" // remove this line if not using nests
+	//nests "net.ornithemc:nests:${project.minecraft_version}+build.${project.nests_build}" // remove this line if not using nests
 
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 

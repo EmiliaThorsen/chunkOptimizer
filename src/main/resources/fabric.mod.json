@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "example_mod",
+	"id": "chunk-access-optimizer",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "chunk access optimizer",
+	"description": "mod to massively reduce getChunk calls",
 	"authors": [
-		"Me!"
+		"EmiliaThorsen"
 	],
 	"contact": {
 		"homepage": "https://example.com/",
@@ -16,15 +16,15 @@
 	"environment": "*",
 	"entrypoints": {
 		"init": [
-			"com.example.example_mod.ExampleMod"
+			"io.github.EmiliaThorsen.ChunkAccessOptimizer"
 		]
 	},
 	"mixins": [
-		"example_mod.mixins.json"
+		"chunkAccessOptimizer.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
-		"minecraft": "1.7.2",
+		"minecraft": "1.12.2",
 		"osl": ">=0.8.0"
 	}
 }
