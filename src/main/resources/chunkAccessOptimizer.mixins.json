@@ -4,6 +4,7 @@
 	"package": "io.github.EmiliaThorsen.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
+      "WorldMixin"
 	],
 	"client": [
 	],
